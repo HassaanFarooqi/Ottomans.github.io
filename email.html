@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ottomans|Creating Account</title>
+    <LINK rel="icon" href="R.png">
+    <link rel="icon" type="image/png" sizes="16px 16px" href="icon.png">
+    <style>
+        h1{
+        border: 8px  #4dd8d8 ;
+        background: #4dd8d8 ;
+        padding:20px;
+        Text-align: center;
+        }
+        .h1{
+        border: 1px solid black;
+        padding:20px;
+
+        Background: #d6eaf8 ;
+        }
+        div{
+
+        background:light gray;
+        border-radius:1%;
+        Background: #d6eaf8 ;
+        }
+        input{
+        width:100%;
+        border-radius:3%;
+        }
+        .* {
+        width:100%;
+        }
+        #male {
+        width: 10%;
+        border-radius:50%;
+        }
+        #female {
+        width: 10%;
+        }
+        fieldset{
+        background: white;
+        border-radius:2%;
+        }
+        .submit{
+        background:green;
+        border: 3px green;
+        padding: 9px 20px;
+        border-radius:0%;
+        width:19%;
+        text_align: center;
+        text-size: 40px;
+        margin-width: 40%;
+        margin-left: 40%;
+        font-size: 20px;
+        }
+        .submit:hover{
+        background-color: black;
+        color: white;
+        }
+    </style>
+</head>
+<body marginwidth="30%" bgcolor="#eaecee">
+<div class="h1"  >
+<h1>Creating Account</h1>
+ <fieldset>
+            <legend>User Information</legend>
+             <p>Name:
+                 <input type="text" name="name" required placeholder="Name" class="*" required> &nbsp &nbsp
+             </p>
+             <p>
+                 Second Name:
+                 <input type="text" name="name" required placeholder="Second Name" class="*" required>
+             </p>
+        <p>
+            Male <input type="radio" name="gender" id="male" required  > Female <input type="radio" name="gender" id="female" required>
+        </p>
+     <p>Birth Date:
+         <input type="date" name="birth_date" id="birth_date" required placeholder="Birth year">
+     </p>
+        </fieldset>
+<hr>
+<fieldset>
+    <legend>Email</legend>
+    <p>Email:
+        <input type="email" name="email" id="email" required placeholder="______@___.com">
+    </p>
+    <p>Password:
+        <input  type="password" name="number" required placeholder="Password">
+    </p>
+    <p>Reenter Password:
+        <input type="password"  name="number" required placeholder="Password">
+    </p>
+
+
+</fieldset>
+    <br>
+    <input type="submit" value="Create" class="submit">
+</div>
+<a href="login.html"><h1>Login</h1></a>
+<p>
+    <h1><a href="home.html">Go Back</a></h1>
+</p>
+</body>
+</html>
